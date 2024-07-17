@@ -1,0 +1,38 @@
+.navbar {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px 20px;
+background-color: #fffcfc;
+color: white;
+}
+
+.navbar-left a {
+margin-right: 30px;
+color:#404576;
+text-decoration: none;
+}
+
+.navbar-left a:hover {
+text-decoration: underline;
+}
+
+.navbar-center {
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: #404576;
+font-size: 26px;
+flex-grow: 1;
+text-align: center;
+}
+
+.navbar-right .buy-now {
+background:#101b48;
+color: white;
+border: none;
+padding: 3px 60px;
+cursor: pointer;
+}
+
+.navbar-right .buy-now:hover {
+background-color: #0056b3;
+}

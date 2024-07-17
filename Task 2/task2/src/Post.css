@@ -1,0 +1,59 @@
+.post-container {
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 20px;
+background-color: #ffffff;
+border: 1px solid #ffffff;
+border-radius: 8px;
+}
+
+.post-text {
+    max-width: 60%;
+    text-align: left; 
+  }
+  
+  
+  .post-text h1 {
+    margin: 10px 0; 
+    color: #333;
+  }
+.post-text p {
+margin: 15px 0;
+color: #5a699b;
+}
+
+.purchase-button,
+.learn-button {
+margin: 10px 5px;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.purchase-button {
+background-color: #101b48;
+color: white;
+}
+
+.purchase-button:hover {
+background-color:#5570df;
+}
+
+.learn-button {
+background-color: #ffffff;
+color: rgb(0, 0, 0);
+border: 2px solid black; 
+}
+
+
+.learn-button:hover {
+background-color: #26728e;
+}
+
+.post-image img {
+max-width: 100%;
+height: auto;
+border-radius: 8px;
+}

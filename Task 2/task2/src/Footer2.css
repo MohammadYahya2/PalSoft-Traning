@@ -1,0 +1,22 @@
+hr{
+    width: 513%;
+    margin-top: 150px;
+
+}
+.copy{
+
+}
+.navbar-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #e7ecff;
+    color: white;
+    }
+    
+    .navbar-left-footer a {
+    margin-right: 30px;
+    color:#404576;
+    text-decoration: none;
+    }

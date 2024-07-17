@@ -1,0 +1,94 @@
+.post-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+}
+
+.post-text {
+    max-width:445px;
+    text-align: left; 
+}
+
+.post-text h1 {
+    margin: 10px 0; 
+    color: #333;
+}
+
+.post-text p {
+    margin: 15px 0;
+    color: #8587ad;
+
+}
+
+.purchase-button,
+.learn-button {
+    margin: 10px 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.purchase-button {
+    background-color: #101b48;
+    color: white;
+}
+
+.purchase-button:hover {
+    background-color: #5570df;
+}
+
+.learn-button {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: 2px solid black; 
+}
+
+.learn-button:hover {
+    background-color: #26728e;
+}
+
+.post-image {
+    max-width: 35%;
+}
+
+.post-image .image-item {
+    margin-bottom: 20px;
+}
+
+.post-image img {
+    max-width: 130%;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+.image-items-container {
+    display: flex;
+    gap: 20px; 
+}
+
+.image-item {
+    text-align: left;
+    flex: 1; 
+    margin-top: 47px;
+}
+
+.image-item img {
+    max-width: 135%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.image-item h4 {
+    margin: 10px 0 5px 0;
+    color: #333;
+}
+
+.image-item p {
+    color: #000000;
+}

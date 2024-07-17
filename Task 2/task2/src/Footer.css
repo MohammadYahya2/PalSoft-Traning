@@ -1,0 +1,24 @@
+.post-text-footer p{
+    text-align: center;
+}
+.post-text-footer p {
+    max-width: 600px;
+    max-height: 116.31px;
+    text-align: center; 
+}
+.post-container-footer{
+    background-color:#f2f4ff;
+
+}
+h1{
+    color:  #101b48;
+}
+p:first-child{
+    color: #8288a9;
+    margin-left: 209px;
+}
+h3{
+    font-size: 40px;
+    color: #232f66;
+
+}
